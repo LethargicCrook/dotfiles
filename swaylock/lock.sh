@@ -1,0 +1,29 @@
+swaylock \
+	-i ~/Pictures/Ultrawide\ Wallpapers/fuji.png \
+	--effect-blur 8x8 \
+	--inside-color 00000000 \
+	--inside-clear-color 00000000 \
+	--inside-ver-color 00000000 \
+	--inside-wrong-color 00000000 \
+	--key-hl-color F4BE8A \
+	--bs-hl-color F4BE8A \
+	--layout-border-color 00000000 \
+	--line-color 00000000 \
+	--line-clear-color 00000000 \
+	--line-caps-lock-color 00000000 \
+	--line-ver-color 00000000 \
+	--line-wrong-color 00000000 \
+	--ring-color 9D6BD5 \
+	--ring-clear-color FFE7C8 \
+	--ring-ver-color 5849B9 \
+	--ring-wrong-color 8E1B3C \
+	--text-color ffffff \
+	--text-clear-color ffffff \
+	--text-caps-lock-color ffffff \
+	--text-ver-color ffffff \
+	--text-wrong-color ffffff \
+	--separator-color 00000000 \
+	--clock \
+	--indicator \
+	--timestr '%H:%M' \
+	--datestr '%a, %-d. %B %Y' \
