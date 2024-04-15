@@ -1,0 +1,76 @@
+configuration {
+	display-drun: "run:";
+	display-window: "Windows:";
+	font: "Droid Sans Mono Regular 12";
+	modi: "drun,run";
+	
+}
+
+@theme "/dev/null"
+
+* {
+  bg: #1E2326;
+  bg-alt: #2E383C;
+  seltext: #F2EFDF;
+  fg: #D3C6AA;
+  fg-alt: #D3C6AA;
+
+  background-color: @bg;
+
+  boder: 1;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+}
+
+window {
+  width: 20%;
+  height: 30%;
+  background-color: @fg;
+}
+
+element {
+  padding: 8 12;
+  background-color: transparent;
+  text-color: @fg-alt;
+}
+
+element selected {
+  text-color: @seltext;
+  background-color: @bg-alt;
+}
+
+element-text {
+  background-color: transparent;
+  text-color: inherit;
+  vertical-align: 0.5;
+}
+
+entry {
+  padding: 12;
+  background-color: @bg;
+  text-color: @seltext;
+}
+
+inputbar {
+  children: [prompt, entry];
+  background-color: @bg;
+}
+
+listview {
+  background-color: @bg;
+  columns: 1;
+  lines: 10;
+}
+
+mainbox {
+  children: [inputbar, listview];
+  background-color: @bg;
+}
+
+prompt {
+  enabled: false;
+  padding: 12 0 0 12;
+  background-color: @bg;
+  text-color: @seltext;
+}

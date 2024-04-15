@@ -1,0 +1,45 @@
+[colors.bright]
+black = "#434F55"
+blue = "#7FBBB3"
+cyan = "#83C092"
+green = "#A7C080"
+magenta = "#D699B6"
+red = "#E67E80"
+white = "#D3C6AA"
+yellow = "#DBBC7F"
+
+[colors.normal]
+black = "#293136"
+blue = "#7FBBB3"
+cyan = "#83C092"
+green = "#A7C080"
+magenta = "#D699B6"
+red = "#E67E80"
+white = "#D3C6AA"
+yellow = "#DBBC7F"
+
+[colors.primary]
+background = "#293136"
+foreground = "#D3C6AA"
+
+[font]
+size = 13
+
+[font.bold]
+family = "Droid Sans Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Droid Sans Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Droid Sans Mono"
+style = "Italic"
+
+[font.normal]
+family = "Droid Sans Mono"
+style = "Medium"
+
+[window]
+opacity = 0.8
