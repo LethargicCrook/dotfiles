@@ -47,7 +47,7 @@ button {
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
-    border-radius: 5px;
+    border-radius: 8px;
 /*    box-shadow: inset 0 -3px #D3C6AA; */
 }
 
@@ -59,17 +59,18 @@ button:hover {
 
 #workspaces button.active {
     background-color: #374145;
-    border-radius: 5px;
+    border-radius: 8px;
 	
 }
 
 #workspaces button:hover {
     background-color: #374145; 
+    border-radius: 8px;
 }
 
 #workspaces button.urgent {
     background-color: #E67E80;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 #clock,
@@ -82,26 +83,24 @@ button:hover {
 #window {
 	background-color: #1E2326;
 	color: #D3C6AA;
-	border-radius: 5px;
-	margin: 10px 0px;
+	border-radius: 8px;
+	margin: 10px 10px;
 	margin-bottom: 0px;
-	padding-bottom: 0px;
+	padding: 2px 5px;
 }
 
 window#waybar.empty {
-	border-radius: 5px;
-	margin: 10px 0px;
+	border-radius: 8px;
+	margin: 10px 10px;
 	margin-bottom: 0px;
-/*	padding: 0 1000;*/
-
 }
 
 #workspaces {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 10px 10px;
-    margin-left: 10px;
+    margin-left: 8px;
     margin-right: 0px;
     margin-bottom: 0px;
 }
@@ -109,27 +108,27 @@ window#waybar.empty {
 #clock {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
-    margin: 10px 2px;
+    border-radius: 8px;
+    margin: 10px 3px;
     margin-right: 10px;
     margin-bottom: 0px;
+    padding: 0px 5px;
 }
 
 #cpu {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
-    margin: 10px 3px;
+    border-radius: 8px;
+    margin: 10px 10px;
     margin-bottom: 0px;
+    padding: 0px 5px;
 }
 
 #network {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -137,8 +136,8 @@ window#waybar.empty {
 #network.wifi {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -146,8 +145,8 @@ window#waybar.empty {
 #network.disabled {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -155,8 +154,8 @@ window#waybar.empty {
 #tray {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -164,8 +163,8 @@ window#waybar.empty {
 #tray.passive {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -173,8 +172,8 @@ window#waybar.empty {
 #tray.active {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -182,8 +181,8 @@ window#waybar.empty {
 #tray.needs-attention {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -191,17 +190,18 @@ window#waybar.empty {
 #memory {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
-    margin: 10px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
+    margin: 10px 0px;
+    margin-left: -25px;
     margin-bottom: 0px;
 }
 
 #pulseaudio {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -209,8 +209,8 @@ window#waybar.empty {
 #pulseaudio.muted {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -218,8 +218,8 @@ window#waybar.empty {
 #idle_inhibitor {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }
@@ -227,8 +227,8 @@ window#waybar.empty {
 #idle_inhibitor.activated {
     background-color: #1E2326;
     color: #D3C6AA;
-    border-radius: 5px;
-    padding: 0px 3px;
+    border-radius: 8px;
+    padding: 0px 5px;
     margin: 10px 3px;
     margin-bottom: 0px;
 }

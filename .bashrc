@@ -6,8 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-#PS1='[\u@\h \W]\$ '
-export PS1="\[\e[37m\]\u\[\e[m\]@\h \W $ "
+PS1='\u@\h \W > '
 
 alias	q='exit' \
 	c='clear' \

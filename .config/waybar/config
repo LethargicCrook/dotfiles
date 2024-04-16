@@ -5,20 +5,13 @@
     // "width": 1280, // Waybar width
     "spacing": 2, // Gaps between modules (0px)
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["cpu", "memory", "hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "tray", "clock"],
+    "modules-right": ["tray", "pulseaudio", "network", "clock"],
     // Modules configuration
     "wlr/workspaces": {
      "on-click": "activate"
      },
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "",
-            "deactivated": ""
-        }
-    },
 
     "network": {
                 "interface": "wlan0",
@@ -28,15 +21,11 @@
                 "format-ethernet": "{ifname} ",
                 "format-disconnected": "", //An empty format will hide the module.
                 "format-disconnected": "",
-                "tooltip-format": "{ifname}",
-                "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-                "tooltip-format-ethernet": "{ifname} ",
-                "tooltip-format-disconnected": "Disconnected",
                 "max-length": 50
     },
 
     "hyprland/window": {
-	"min-length": 200,
+	"min-length": 2,
 	"max-length": 200
     },
 
@@ -46,18 +35,19 @@
     },
 
     "clock": {
-        // "timezone": "America/New_York",
+	"format": "{:%a, %d.%m. | %H:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%d.%m.%Y}"
     },
 
     "cpu": {
-        "format": "{usage}% ",
+        "format": "CPU {usage}% |  ",
         "tooltip": false
+
     },
     "memory": {
-        "format": "{}% "
+        "format": "MEM {}%"
     },
+
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{volume}% {icon}",
