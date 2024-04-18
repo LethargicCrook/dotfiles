@@ -17,10 +17,10 @@
                 "interface": "wlan0",
                 "format": "{ifname}",
                 //"format-wifi": "{essid} ({signalStrength}%) ",
-		"format-wifi": "{signalStrength}% ",
-                "format-ethernet": "{ifname} ",
+		"format-wifi": "| {signalStrength}%   |",
+                "format-ethernet": "{ifname}   |",
                 "format-disconnected": "", //An empty format will hide the module.
-                "format-disconnected": "",
+                "format-disconnected": "  |",
                 "max-length": 50
     },
 
@@ -45,15 +45,15 @@
 
     },
     "memory": {
-        "format": "MEM {}%"
+        "format": "MEM {}% |"
     },
 
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon}",
-        "format-bluetooth": "{volume}% {icon}",
-        "format-bluetooth-muted": " {icon}",
-        "format-muted": " ",
+        "format": "| {volume}% {icon}",
+        "format-bluetooth": "| {volume}% {icon}",
+        "format-bluetooth-muted": "|  {icon}",
+        "format-muted": "|  ",
         //"format-source": "{volume}% ",
         //"format-source-muted": "",
         "format-icons": {

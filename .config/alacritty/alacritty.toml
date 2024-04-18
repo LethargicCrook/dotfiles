@@ -1,44 +1,68 @@
+#[colors.bright]
+#black = "#434F55"
+#blue = "#7FBBB3"
+#cyan = "#83C092"
+#green = "#A7C080"
+#magenta = "#D699B6"
+#red = "#E67E80"
+#white = "#D3C6AA"
+#yellow = "#DBBC7F"
+#
+#[colors.normal]
+#black = "#293136"
+#blue = "#7FBBB3"
+#cyan = "#83C092"
+#green = "#A7C080"
+#magenta = "#D699B6"
+#red = "#E67E80"
+#white = "#D3C6AA"
+#yellow = "#DBBC7F"
+#
+#[colors.primary]
+#background = "#293136"
+#foreground = "#D3C6AA"
+
 [colors.bright]
-black = "#434F55"
-blue = "#7FBBB3"
-cyan = "#83C092"
-green = "#A7C080"
-magenta = "#D699B6"
-red = "#E67E80"
-white = "#D3C6AA"
-yellow = "#DBBC7F"
+black = "#44475a"
+blue = "#6272a4"
+cyan = "#8be9fd"
+green = "#50fa7b"
+magenta = "#bd93f9"
+red = "#ff5555"
+white = "#f8f8f2"
+yellow = "#f1fa8c"
 
 [colors.normal]
-black = "#293136"
-blue = "#7FBBB3"
-cyan = "#83C092"
-green = "#A7C080"
-magenta = "#D699B6"
-red = "#E67E80"
-white = "#D3C6AA"
-yellow = "#DBBC7F"
+black = "#44475a"
+blue = "#6272a4"
+cyan = "#8be9fd"
+green = "#50fa7b"
+magenta = "#bd93f9"
+red = "#ff5555"
+white = "#f8f8f2"
+yellow = "#f1fa8c"
 
 [colors.primary]
-background = "#293136"
-foreground = "#D3C6AA"
+background = "#282a36"
+foreground = "#f8f8f2"
 
 [font]
-size = 13
+size = 14
 
 [font.bold]
-family = "Droid Sans Mono"
+family = "Undefined"
 style = "Bold"
 
 [font.bold_italic]
-family = "Droid Sans Mono"
+family = "Undefined"
 style = "Bold Italic"
 
 [font.italic]
-family = "Droid Sans Mono"
+family = "Undefined"
 style = "Italic"
 
 [font.normal]
-family = "Droid Sans Mono"
+family = "Undefined"
 style = "Medium"
 
 [window]

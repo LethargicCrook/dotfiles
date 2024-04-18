@@ -1,7 +1,7 @@
 configuration {
 	display-drun: "run:";
 	display-window: "Windows:";
-	font: "Droid Sans Mono Regular 12";
+	font: "Undefined 14";
 	modi: "drun,run";
 	
 }
@@ -9,11 +9,11 @@ configuration {
 @theme "/dev/null"
 
 * {
-  bg: #1E2326;
-  bg-alt: #2E383C;
-  seltext: #F2EFDF;
-  fg: #D3C6AA;
-  fg-alt: #D3C6AA;
+  bg: #282a36;
+  bg-alt: #44475a;
+  seltext: #f8f8f2;
+  fg: #f8f8f2;
+  fg-alt: #f8f8f2;
 
   background-color: @bg;
 
